@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CVX Labs — Websites que Convertem</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="logo.png" type="image/png">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Editorial+New:ital@0;1&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -467,6 +468,18 @@
     display: block;
     margin-top: 4px;
   }
+
+  .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 32px; /* ajusta conforme quiser */
+  width: auto;
+}
 
   /* PROCESS */
   .process-section { border-top: 1px solid rgba(255,255,255,0.08); }
@@ -953,7 +966,10 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="logo">CVX Labs</a>
+  <a href="#" class="logo">
+    <img src="logo.png" alt="CVX Labs">
+    <span>CVX Labs</span>
+  </a>
   <ul class="nav-links">
     <li><a href="#servicos">Serviços</a></li>
     <li><a href="#portfolio">Portfólio</a></li>
@@ -1060,7 +1076,7 @@
 
         <!-- ITEM 1: SaaS Dashboard - full width -->
     <div class="portfolio-item">
-    <a href="https://alexandervini.github.io/projLandingPageFotografia/" target="_blank">
+    <a href="https://cvxlabs.github.io/fotografia/" target="_blank">
         <img src="image1.png" alt="Projeto Dashboard" class="portfolio-img">
     </a>
 
@@ -1072,7 +1088,7 @@
 
     <!-- ITEM 2: Landing Page infoproduto -->
         <div class="portfolio-item">
-        <a href="https://carloscharlesdev.github.io/Psicologo3/" target="_blank">
+        <a href="https://cvxlabs.github.io/psicologo/" target="_blank">
             <img src="image3.png" alt="Projeto Dashboard" class="portfolio-img">
         </a>
 
@@ -1084,7 +1100,7 @@
 
     <!-- ITEM 3: E-commerce moda premium -->
     <div class="portfolio-item">
-    <a href="https://carloscharlesdev.github.io/odonto-page/" target="_blank">
+    <a href="https://cvxlabs.github.io/odonto/" target="_blank">
         <img src="image.png" alt="Projeto Dashboard" class="portfolio-img">
     </a>
 
